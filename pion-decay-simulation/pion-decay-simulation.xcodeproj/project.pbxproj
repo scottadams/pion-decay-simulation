@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CACD0D31715DDC200DD263C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5CACD0D21715DDC200DD263C /* main.cpp */; };
+		5CACD0D51715DDC200DD263C /* pion_decay_simulation.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5CACD0D41715DDC200DD263C /* pion_decay_simulation.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5CACD0CC1715DDC200DD263C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				5CACD0D51715DDC200DD263C /* pion_decay_simulation.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5CACD0CE1715DDC200DD263C /* pion-decay-simulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "pion-decay-simulation"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CACD0D21715DDC200DD263C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5CACD0D41715DDC200DD263C /* pion_decay_simulation.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = pion_decay_simulation.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CACD0CB1715DDC200DD263C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CACD0C31715DDC200DD263C = {
+			isa = PBXGroup;
+			children = (
+				5CACD0D11715DDC200DD263C /* pion-decay-simulation */,
+				5CACD0CF1715DDC200DD263C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CACD0CF1715DDC200DD263C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CACD0CE1715DDC200DD263C /* pion-decay-simulation */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CACD0D11715DDC200DD263C /* pion-decay-simulation */ = {
+			isa = PBXGroup;
+			children = (
+				5CACD0D21715DDC200DD263C /* main.cpp */,
+				5CACD0D41715DDC200DD263C /* pion_decay_simulation.1 */,
+			);
+			path = "pion-decay-simulation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CACD0CD1715DDC200DD263C /* pion-decay-simulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CACD0D81715DDC200DD263C /* Build configuration list for PBXNativeTarget "pion-decay-simulation" */;
+			buildPhases = (
+				5CACD0CA1715DDC200DD263C /* Sources */,
+				5CACD0CB1715DDC200DD263C /* Frameworks */,
+				5CACD0CC1715DDC200DD263C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pion-decay-simulation";
+			productName = "pion-decay-simulation";
+			productReference = 5CACD0CE1715DDC200DD263C /* pion-decay-simulation */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CACD0C51715DDC200DD263C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5CACD0C81715DDC200DD263C /* Build configuration list for PBXProject "pion-decay-simulation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CACD0C31715DDC200DD263C;
+			productRefGroup = 5CACD0CF1715DDC200DD263C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CACD0CD1715DDC200DD263C /* pion-decay-simulation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CACD0CA1715DDC200DD263C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CACD0D31715DDC200DD263C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5CACD0D61715DDC200DD263C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5CACD0D71715DDC200DD263C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5CACD0D91715DDC200DD263C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CACD0DA1715DDC200DD263C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CACD0C81715DDC200DD263C /* Build configuration list for PBXProject "pion-decay-simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CACD0D61715DDC200DD263C /* Debug */,
+				5CACD0D71715DDC200DD263C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CACD0D81715DDC200DD263C /* Build configuration list for PBXNativeTarget "pion-decay-simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CACD0D91715DDC200DD263C /* Debug */,
+				5CACD0DA1715DDC200DD263C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CACD0C51715DDC200DD263C /* Project object */;
+}

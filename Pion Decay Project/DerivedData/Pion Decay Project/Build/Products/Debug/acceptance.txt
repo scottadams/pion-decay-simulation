@@ -1,0 +1,8 @@
+From Pion:
+	 Acceptance = 76.2%
+	 Efficiency = 72.5%
+	 Impurity = 3.41297%
+From Muon:
+	 Acceptance = 78%
+	 Efficiency = 71.6%
+	 Impurity = 5.07901%

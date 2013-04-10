@@ -1,0 +1,74 @@
+TPion Decay Project
+v4
+r1
+cCheck dependencies
+cCompileC "DerivedData/Pion Decay Project/Build/Intermediates/Pion Decay Project.build/Debug/Pion Decay Project.build/Objects-normal/x86_64/main.o" "/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/DerivedData/Pion Decay Project/Build/Products/Debug/Pion Decay Project" normal x86_64
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004E7AD70B00000000000000EE
+t1316673291
+s238
+
+N/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/DerivedData/Pion Decay Project/Build/Intermediates/Pion Decay Project.build/Debug/Pion Decay Project.build/Objects-normal/x86_64/Pion Decay Project.LinkFileList
+c000000005165A92F00000000000000C7
+t1365616943
+s199
+
+N/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/DerivedData/Pion Decay Project/Build/Intermediates/Pion Decay Project.build/Debug/Pion Decay Project.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/DerivedData/Pion Decay Project/Build/Products/Debug/Pion Decay Project
+t2
+s0
+
+N/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/main.cpp
+c000000005165A92E0000000000001465
+t1365616942
+s5221
+
+CBuild AST from "/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/main.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa73eccafe015b741^bc5dd7afe015b741^---0#1#0#--18"Check dependencies36"9903152A-F799-4C41-861B-133E31EDF509-
+
+CCompileC "DerivedData/Pion Decay Project/Build/Intermediates/Pion Decay Project.build/Debug/Pion Decay Project.build/Objects-normal/x86_64/main.o" "/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s387309743.899067
+e387309746.739455
+r1
+xCompileC
+xDerivedData/Pion Decay Project/Build/Intermediates/Pion Decay Project.build/Debug/Pion Decay Project.build/Objects-normal/x86_64/main.o
+x/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/main.cpp:7:
+o/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/detector.h:11:8: warning: no previous prototype for function 'gaussian' [-Wmissing-prototypes,3]
+o double gaussian()
+o        ^
+o/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/detector.h:62:2: warning: control reaches end of non-void function [-Wreturn-type,3]
+o         }
+o         ^
+o/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/detector.h:66:2: warning: control reaches end of non-void function [-Wreturn-type,3]
+o         }
+o         ^
+o/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/main.cpp:10:8: warning: no previous prototype for function 'michel' [-Wmissing-prototypes,3]
+o double michel()
+o        ^
+o4 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/main.cpp5089ebafe015b741^ad34fdb2e015b741^-926"In file included from /Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/main.cpp:7:/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/detector.h:11:8: warning: no previous prototype for function 'gaussian' [-Wmissing-prototypes,3] double gaussian()        ^/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/detector.h:62:2: warning: control reaches end of non-void function [-Wreturn-type,3]         }         ^/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/detector.h:66:2: warning: control reaches end of non-void function [-Wreturn-type,3]         }         ^/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/main.cpp:10:8: warning: no previous prototype for function 'michel' [-Wmissing-prototypes,3] double michel()        ^4 warnings generated.4(21%IDEActivityLogMessage2@45"No previous prototype for function 'gaussian'-387309746#116#179#2(36%IDEActivityLogHeaderInclusionMessage3@115"In file included from /Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/main.cpp:7:-387309746#0#116#-0#-23%DVTTextDocumentLocation4@114"file://localhost/Users/scottadams/Dev/pion-decay-simulation/Pion%20Decay%20Project/Pion%20Decay%20Project/main.cpp0000000000000000^6#18446744073709551615#6#18446744073709551615#18446744073709551615#0#---2@141"No previous prototype for function 'gaussian' in /Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/detector.h-387309746#18446744073709551615#0#-0#-4@116"file://localhost/Users/scottadams/Dev/pion-decay-simulation/Pion%20Decay%20Project/Pion%20Decay%20Project/detector.h0000000000000000^10#7#10#7#18446744073709551615#0#---1#-4@116"file://localhost/Users/scottadams/Dev/pion-decay-simulation/Pion%20Decay%20Project/Pion%20Decay%20Project/detector.h0000000000000000^10#7#10#7#18446744073709551615#0#14"Semantic Issue--2@40"Control reaches end of non-void function-387309746#324#167#2(3@115"In file included from /Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/main.cpp:7:-387309746#18446744073709551615#0#-0#-4@114"file://localhost/Users/scottadams/Dev/pion-decay-simulation/Pion%20Decay%20Project/Pion%20Decay%20Project/main.cpp0000000000000000^6#18446744073709551615#6#18446744073709551615#18446744073709551615#0#---2@136"Control reaches end of non-void function in /Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/detector.h-387309746#18446744073709551615#0#-0#-4@116"file://localhost/Users/scottadams/Dev/pion-decay-simulation/Pion%20Decay%20Project/Pion%20Decay%20Project/detector.h0000000000000000^61#1#61#1#18446744073709551615#0#---1#-4@116"file://localhost/Users/scottadams/Dev/pion-decay-simulation/Pion%20Decay%20Project/Pion%20Decay%20Project/detector.h0000000000000000^61#1#61#1#18446744073709551615#0#14"Semantic Issue--2@40"Control reaches end of non-void function-387309746#513#167#2(3@115"In file included from /Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/main.cpp:7:-387309746#18446744073709551615#0#-0#-4@114"file://localhost/Users/scottadams/Dev/pion-decay-simulation/Pion%20Decay%20Project/Pion%20Decay%20Project/main.cpp0000000000000000^6#18446744073709551615#6#18446744073709551615#18446744073709551615#0#---2@136"Control reaches end of non-void function in /Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/detector.h-387309746#18446744073709551615#0#-0#-4@116"file://localhost/Users/scottadams/Dev/pion-decay-simulation/Pion%20Decay%20Project/Pion%20Decay%20Project/detector.h0000000000000000^65#1#65#1#18446744073709551615#0#---1#-4@116"file://localhost/Users/scottadams/Dev/pion-decay-simulation/Pion%20Decay%20Project/Pion%20Decay%20Project/detector.h0000000000000000^65#1#65#1#18446744073709551615#0#14"Semantic Issue--2@43"No previous prototype for function 'michel'-387309746#702#175#-1#-4@114"file://localhost/Users/scottadams/Dev/pion-decay-simulation/Pion%20Decay%20Project/Pion%20Decay%20Project/main.cpp0000000000000000^9#7#9#7#18446744073709551615#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation5@114"file://localhost/Users/scottadams/Dev/pion-decay-simulation/Pion%20Decay%20Project/Pion%20Decay%20Project/main.cpp0000000000000000^2878"CompileC "DerivedData/Pion Decay Project/Build/Intermediates/Pion Decay Project.build/Debug/Pion Decay Project.build/Objects-normal/x86_64/main.o" "Pion Decay Project/main.cpp" normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -Wc++0x-extensions -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/DerivedData/Pion Decay Project/Build/Intermediates/Pion Decay Project.build/Debug/Pion Decay Project.build/Pion Decay Project-generated-files.hmap" "-I/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/DerivedData/Pion Decay Project/Build/Intermediates/Pion Decay Project.build/Debug/Pion Decay Project.build/Pion Decay Project-own-target-headers.hmap" "-I/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/DerivedData/Pion Decay Project/Build/Intermediates/Pion Decay Project.build/Debug/Pion Decay Project.build/Pion Decay Project-all-target-headers.hmap" -iquote "/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/DerivedData/Pion Decay Project/Build/Intermediates/Pion Decay Project.build/Debug/Pion Decay Project.build/Pion Decay Project-project-headers.hmap" "-I/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/DerivedData/Pion Decay Project/Build/Products/Debug/include" "-I/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/DerivedData/Pion Decay Project/Build/Intermediates/Pion Decay Project.build/Debug/Pion Decay Project.build/DerivedSources/x86_64" "-I/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/DerivedData/Pion Decay Project/Build/Intermediates/Pion Decay Project.build/Debug/Pion Decay Project.build/DerivedSources" "-F/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/DerivedData/Pion Decay Project/Build/Products/Debug" -MMD -MT dependencies -MF "/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/DerivedData/Pion Decay Project/Build/Intermediates/Pion Decay Project.build/Debug/Pion Decay Project.build/Objects-normal/x86_64/main.d" -c "/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/Pion Decay Project/main.cpp" -o "/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/DerivedData/Pion Decay Project/Build/Intermediates/Pion Decay Project.build/Debug/Pion Decay Project.build/Objects-normal/x86_64/main.o"36"B035B713-319C-488F-ACD5-46F50DF64065-
+
+CLd "/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/DerivedData/Pion Decay Project/Build/Products/Debug/Pion Decay Project" normal x86_64
+s387309746.746529
+e387309748.563386
+r1
+xLd
+x/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/DerivedData/Pion Decay Project/Build/Products/Debug/Pion Decay Project
+xnormal
+xx86_64
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Link /Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/DerivedData/Pion Decay Project/Build/Products/Debug/Pion Decay Projectdc2fbfb2e015b741^323a90b4e015b741^---0#0#0#--927"Ld "DerivedData/Pion Decay Project/Build/Products/Debug/Pion Decay Project" normal x86_64    cd "/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Developer/usr/bin/clang++ -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.7.sdk "-L/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/DerivedData/Pion Decay Project/Build/Products/Debug" "-F/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/DerivedData/Pion Decay Project/Build/Products/Debug" -filelist "/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/DerivedData/Pion Decay Project/Build/Intermediates/Pion Decay Project.build/Debug/Pion Decay Project.build/Objects-normal/x86_64/Pion Decay Project.LinkFileList" -mmacosx-version-min=10.7 -o "/Users/scottadams/Dev/pion-decay-simulation/Pion Decay Project/DerivedData/Pion Decay Project/Build/Products/Debug/Pion Decay Project"36"258F88E4-7B3C-44DD-AFE7-DD8C1B7C9707-
+
